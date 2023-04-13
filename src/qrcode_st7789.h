@@ -20,7 +20,7 @@ class QRcode_ST7789 : public QRcodeDisplay
 		
 		QRcode_ST7789(Adafruit_ST7789 *display);
 
-		void init();
+		void init(uint16_t myWidth, uint16_t myHeight);
 		void screenwhite();
 		void screenupdate();
 };
